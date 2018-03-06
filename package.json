@@ -4,7 +4,8 @@
   "description": "RESTful api example with node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error, no test specified\\\" && exit 1"
+    "test": "echo \\\"Error, no test specified\\\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/tjmabey/todoListApi/issues"
   },
-  "homepage": "https://github.com/tjmabey/todoListApi#readme"
+  "homepage": "https://github.com/tjmabey/todoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
